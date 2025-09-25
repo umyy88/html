@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 01 - Introduction to HTML</title>
+</head>
+<body>
+
+    <!-- Headings -->
+    <h1>Assignment 01: Introduction to HTML</h1>
+    <h2>Submitted by: Umer Mavia</h2>
+    <h3>Registration No: FA23-BCS-195</h3>
+
+    <!-- Text Formatting -->
+    <p>This paragraph demonstrates <b>bold</b>, <i>italic</i>, and <u>underlined</u> text formatting.</p>
+    <p>Example of line break:<br>Here is the text after the break.</p>
+    <hr>
+
+    <!-- Lists -->
+    <h2>Ordered List of Web Technologies</h2>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <h2>Unordered List of Fruits</h2>
+    <ul>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Banana</li>
+    </ul>
+    <hr>
+
+    <!-- Links & Media -->
+    <h2>Link & Image Example</h2>
+    <p>Visit <a href="https://www.w3schools.com" target="_blank">W3Schools</a> for HTML learning.</p>
+    <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools Logo" width="200">
+    <hr>
+
+    <!-- Table -->
+    <h2>Sample Student Information Table</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+        <tr>
+            <th>Reg No</th>
+            <th>Name</th>
+            <th>Program</th>
+        </tr>
+        <tr>
+            <td>FA23-BCS-195</td>
+            <td>Umer Mavia</td>
+            <td>BSCS</td>
+        </tr>
+        <tr>
+            <td>FA23-BCS-67</td>
+            <td>Junaid</td>
+            <td>BSCS</td>
+        </tr>
+    </table>
+    <hr>
+
+    <!-- Forms Section -->
+    <h2>Form using GET Method</h2>
+    <form action="https://www.w3schools.com/action_page.php" method="get">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="username" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="useremail" required><br><br>
+
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="userpass"><br><br>
+
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <p>Skills:</p>
+        <input type="checkbox" name="skills" value="HTML"> HTML
+        <input type="checkbox" name="skills" value="CSS"> CSS
+        <input type="checkbox" name="skills" value="JavaScript"> JavaScript<br><br>
+
+        <label for="country">Select Country:</label>
+        <select id="country" name="country">
+            <option value="Pakistan">Pakistan</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit (GET)">
+    </form>
+
+    <hr>
+
+    <h2>Form using POST Method</h2>
+    <form action="https://www.w3schools.com/action_page.php" method="post">
+        <label for="pname">Full Name:</label>
+        <input type="text" id="pname" name="username" required><br><br>
+
+        <label for="pemail">Email:</label>
+        <input type="email" id="pemail" name="useremail" required><br><br>
+
+        <label for="ppass">Password:</label>
+        <input type="password" id="ppass" name="userpass"><br><br>
+
+        <p>Gender:</p>
+        <input type="radio" id="pmale" name="gender" value="Male">
+        <label for="pmale">Male</label>
+        <input type="radio" id="pfemale" name="gender" value="Female">
+        <label for="pfemale">Female</label><br><br>
+
+        <p>Skills:</p>
+        <input type="checkbox" name="skills" value="HTML"> HTML
+        <input type="checkbox" name="skills" value="CSS"> CSS
+        <input type="checkbox" name="skills" value="JavaScript"> JavaScript<br><br>
+
+        <label for="pcountry">Select Country:</label>
+        <select id="pcountry" name="country">
+            <option value="Pakistan">Pakistan</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit (POST)">
+    </form>
+
+</body>
+</html>
